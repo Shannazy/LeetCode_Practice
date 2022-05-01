@@ -18,7 +18,7 @@ public class Roman_numerals {
         int counter = 0;
         while (counter < s.length()){
             String nextChar = "";
-            char currentChar = s.charAt(counter);
+            Character currentChar = s.charAt(counter);
                 if (counter != s.length()-1){
                     nextChar = nextChar + s.charAt(counter + 1);
                 }

@@ -7,9 +7,9 @@ public class Solution {
         return "";
     }
     for (int x = 0; x < strs[0].length(); x++){ //run thru the letters of all the first word
-        char prime = strs[0].charAt(x);
+        Character prime = strs[0].charAt(x);
         for (int j = 0; j < strs.length; j++){
-            if (x == strs[j].length() || prime != strs[j].charAt(x) ){ //check to see if the second word is smaller first then do a char check
+            if (x == strs[j].length() || prime != strs[j].charAt(x) ){ //check to see if the second word is smaller first then do a Character check
                 return strs[0].substring(0,x); //return the inner string till point of failure
             }
         }

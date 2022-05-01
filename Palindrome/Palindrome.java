@@ -8,7 +8,7 @@ class Solution {
     else {
       String temp = Integer.toString(x);
       String reverse = "";
-      char myChar;
+      Character myChar;
 
       for(int i = 0; i<temp.length(); i++){
         myChar = temp.charAt(i);
